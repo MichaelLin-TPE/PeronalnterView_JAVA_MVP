@@ -15,7 +15,7 @@ import com.money.peronainterviewproject_java_mvp.json.WeatherTime;
 
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity implements MainActivityVu{
+public class MainActivity extends BaseActivity implements MainActivityVu{
 
 
     protected MainActivityPresenter presenter;
