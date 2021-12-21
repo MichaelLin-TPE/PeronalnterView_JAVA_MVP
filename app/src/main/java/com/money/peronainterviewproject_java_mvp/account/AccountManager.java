@@ -1,6 +1,4 @@
-package com.money.peronainterviewproject_java_mvp;
-
-import com.money.peronainterviewproject_java_mvp.account.SharedPreferencesUtils;
+package com.money.peronainterviewproject_java_mvp.account;
 
 public class AccountManager {
 

@@ -12,4 +12,6 @@ public interface MainActivityVu {
     void showProgressBar(boolean isShow);
 
     void showWeatherInformation(ArrayList<WeatherTime> timeArrayList);
+
+    String getConnectTimeOut();
 }

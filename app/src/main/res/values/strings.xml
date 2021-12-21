@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">PeronaInterViewProject_JAVA_MVP</string>
     <string name="title_error_data_message">資料格式錯誤,請稍後再試.</string>
+    <string name="title_connect_time_out">連線超時</string>
 </resources>

@@ -90,6 +90,11 @@ public class MainActivity extends BaseActivity implements MainActivityVu{
     }
 
     @Override
+    public String getConnectTimeOut() {
+        return getString(R.string.title_connect_time_out);
+    }
+
+    @Override
     protected void onPause() {
         super.onPause();
         adapter.setTimeArrayList(new ArrayList<>());

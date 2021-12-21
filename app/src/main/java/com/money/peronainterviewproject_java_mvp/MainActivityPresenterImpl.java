@@ -68,6 +68,7 @@ public class MainActivityPresenterImpl implements MainActivityPresenter{
                     @Override
                     public void onError(@NonNull Throwable e) {
                         Log.i("Michael","取得天氣資料失敗 : "+e);
+                        mView.showToast(mView.getConnectTimeOut());
                     }
 
                     @Override
