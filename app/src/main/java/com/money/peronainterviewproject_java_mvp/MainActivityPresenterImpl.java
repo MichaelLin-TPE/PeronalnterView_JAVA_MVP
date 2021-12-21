@@ -39,7 +39,7 @@ public class MainActivityPresenterImpl implements MainActivityPresenter{
 
                     @Override
                     public void onNext(@NonNull WeatherObject weatherObject) {
-                        Log.i("Michael","取得天氣資料:"+weatherObject.getRecords().getDatasetDescription());
+
 
                         if (weatherObject.getRecords() == null ||
                                 weatherObject.getRecords().getLocationArrayList() == null ||
@@ -55,6 +55,8 @@ public class MainActivityPresenterImpl implements MainActivityPresenter{
 
                             return;
                         }
+                        Log.i("Michael","取得天氣資料:"+weatherObject.getRecords().getDatasetDescription());
+
                         ArrayList<WeatherTime> timeArrayList = weatherObject.getRecords().getLocationArrayList().get(0).getElementArrayList().get(0).getTimeArrayList();
 
                         Log.i("Michael","TimeArray size : "+timeArrayList.size());
